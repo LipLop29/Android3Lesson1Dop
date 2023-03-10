@@ -34,14 +34,14 @@ class MainActivity : AppCompatActivity() {
             if (viewModel?.count == 10 || viewModel?.count == -10) {
                 binding.tvInt.setTextColor(
                     ContextCompat.getColor(
-                        applicationContext,
+                        this,
                         R.color.yellow
                     )
                 )
             } else {
                 binding.tvInt.setTextColor(
                     ContextCompat.getColor(
-                        applicationContext,
+                        this,
                         R.color.white
                     )
                 )
@@ -52,14 +52,14 @@ class MainActivity : AppCompatActivity() {
             if (viewModel?.count == -10 || viewModel?.count == 10) {
                 binding.tvInt.setTextColor(
                     ContextCompat.getColor(
-                        applicationContext,
+                        this,
                         R.color.yellow
                     )
                 )
             } else {
                 binding.tvInt.setTextColor(
                     ContextCompat.getColor(
-                        applicationContext,
+                        this,
                         R.color.white
                     )
                 )
