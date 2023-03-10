@@ -13,9 +13,20 @@
         android:layout_gravity="center|left"
         android:layout_marginStart="50dp"
         android:text="@string/minus"
+        android:backgroundTint="#FF6F00"
         android:textSize="30sp"
         android:textStyle="bold"
         tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Циферьки"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="200dp"/>
 
     <TextView
         android:id="@+id/tv_int"
@@ -33,6 +44,7 @@
         android:layout_height="60dp"
         android:layout_gravity="center|right"
         android:layout_marginEnd="50dp"
+        android:backgroundTint="#FF6F00"
         android:text="@string/plus"
         android:textSize="30sp"
         android:textStyle="bold"

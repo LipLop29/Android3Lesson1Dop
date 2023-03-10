@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
                 binding.tvInt.setTextColor(
                     ContextCompat.getColor(
                         applicationContext,
-                        R.color.purple_500
+                        R.color.yellow
                     )
                 )
             } else {
@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                 binding.tvInt.setTextColor(
                     ContextCompat.getColor(
                         applicationContext,
-                        R.color.purple_500
+                        R.color.yellow
                     )
                 )
             } else {
